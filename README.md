@@ -9,6 +9,8 @@ Nupkg location = \\\dfs\Chocolatey\user\\*.nupkg
 
 Package files = \\\dfs\Chocolatey\user\packagename\version\\*
 
+The Slack notfications are just done using a webhook and json invoke comand.
+
 # ChocoUpdate
 This script can be run on a local workstation that has connection to a local repo and community repo. It will pull packages from multiple local repositories. Check the version against the public repo and push any updates, with slack notfications. (This currently doesnt check for dependencies). 
 
