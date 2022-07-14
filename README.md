@@ -12,4 +12,4 @@ To run as a task schedule with logging:
 # More coming soon.
 
 # Legal and Licensing
-Chocolatier is licensed under the MIT license.
+ChocoAutomation is licensed under the [Apache-2.0 license](https://github.com/MoodyLondon/ChocoAutomation/blob/main/LICENSE) use at your own risk.
