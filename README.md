@@ -33,15 +33,7 @@ Downloading existing package(s) to C:\temp\download
 
 chocolatey-vscode v0.7.2 (forced) [Approved]
 Found internalizable Chocolatey functions. Inspecting values for remote resources.
-
-Adding -UseOriginalLocation to Install-ChocolateyPackage (if found).
- There is a bug in Chocolatey v0.10.1 that occurs when there is only
- one url replaced (no 32 and 64 bit Windows). Be sure to remove the
- parameter and recompile if you have any 0.10.1 installations. You
- can also turn off the feature 'internalizeAppendUseOriginalLocation' to not append
-Updating chocolateyInstall.ps1 with local resources.
 Recompiling package.
-
 Recompiled package files available at 'C:\temp\download\chocolatey-vscode'
 Recompiled nupkg available in 'C:\temp\'
 Copying package 'chocolatey-vscode' to 'admin' FileShare.
