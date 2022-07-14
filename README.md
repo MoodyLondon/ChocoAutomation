@@ -2,7 +2,7 @@
 Powershell Scripts for automating chocolatey tasks. These are more centered around internalizing for enterprises and remote upgrading of client packages with PowerShell.
 ### Layout
 Feel Free to configure to your enviroment but currently the setup is asuming your repo and storage location ends with wether its a admin or user repo. So
-https://nexusrepo/repository/choco- (admin or user) and \\\dfs\Chocolatey\(admin or user)\
+https://nexusrepo/repository/choco- (admin or user) and \\\dfs\Chocolatey\\(admin or user)\\
 The Nupkgs are then directly under the repo folder and packages are saved under name and version for example: 
 
 Nupkg location = \\\dfs\Chocolatey\user\\*.nupkg
