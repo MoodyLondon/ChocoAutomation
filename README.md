@@ -2,7 +2,9 @@
 Powershell Scripts for automating chocolatey tasks. These are more centered around internalizing for enterprises and remote upgrading of client packages with PowerShell.
 
 # ChocoUpdate
-This script can be run on a local server that has connection to a local repo and community repo. It will pull all packages from multiple repos. Check the version and push new packages if it is out of date with slack notfications. (This currently doesnt check for dependencies). 
+This script can be run on a local server that has connection to a local repo and community repo. It will pull packages from multiple local repositories. Check the version against the public repo and push any updates, with slack notfications. (This currently doesnt check for dependencies). 
+
+![alt text](https://github.com/MoodyLondon/ChocoAutomation/blob/main/examples/Annotation%202022-07-14%20084254.png)
 
 To run as a task schedule with logging:
  ```
