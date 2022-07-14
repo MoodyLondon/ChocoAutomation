@@ -10,6 +10,11 @@ To run as a task schedule with logging:
  ```
  "powershell.exe C:\temp\chocoupdate\chocoupdate.ps1" > C:\temp\chocoupdate\update.log
  ```
+Feel Free to configure to your enviroment but currently the setup is asuming your repo and storage location ends with wether its a admin or user repo. so
+https://nexusrepo/repository/choco-(admin or user)
+\\dfs\Chocolatey\(admin or user) 
+
+
 
 # More coming soon.
 
